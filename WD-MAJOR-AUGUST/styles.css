@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:url('https://media.istockphoto.com/photos/defocused-lights-background-picture-id1252982760?b=1&k=20&m=1252982760&s=612x612&w=0&h=aYPxoxLPvNeobPtVt8oz80ZR0hcqo0hVNG0sRFF6nLE=');
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow:hidden;
+    height: 100vh;
+}
+.header{
+    float: inline-end;
+    color: #91742d;
+    font-family: 'Orbitron';
+    font-size: 40px;
+    float: inline-end;
+}
+.baby{
+    width: 90%;
+    margin: auto;
+}
+
+
+.search_div{
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+#search{
+    width: 220px;
+    height: 35px;
+    color: rgb(10, 10, 10);
+    border: 1px solid white;
+    border-radius: 25px 60px;
+    
+}
+input{
+    padding:2px 10px;
+}
+#bttn{
+    background: none;
+    padding: 5px 20px;
+    color: aliceblue;
+    outline: none;
+    background: grey;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px 1px;
+}
+
+
+.main{
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 30px 4px 16px;
+    margin-left: 30%;
+    margin-right:30%;
+}
+.box1{
+    padding: 10px;
+    font-size: 20px;
+}
+.city{
+    font-size: 40px;
+    font-family: 'Orbitron';
+    color: maroon;
+}
+.temp{
+    font-size: 40px;
+    display: flex;
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Orbitron';
+}
+#tmp_logo>img{
+    max-width: 100px;
+}
+#temp{
+    margin-top: 18px;
+    color: maroon;
+}
+.env{
+    font-size: 25px;
+    font-family: 'Orbitron';
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.visi{
+    margin-left: 20px;
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 14px;
+}
+.dew{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.week{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.hours_data{
+    display: flex;
+    overflow:auto;
+    gap: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+.day_card{
+    color: grey;
+    padding: 8px;
+    border: 1px solid #ddae37;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 90px 4px 16px;
+    /* opacity: 0.5; */
+}
+.day{
+    font-size: 15px;
+}
+.day_tmp{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.weth_logo{
+    width: 30px;
+}
+.hour_weth{
+    font-size: 14px;
+}
+.wind{
+    font-size: 8px;
+    color: #000;
+}
+.week11{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background: rgba(255,255,255,0.2);
+
+}
+.heading{
+    color: maroon;
+    font-size: 40px;
+    font-family: 'Orbitron';
+}
+.days_data{
+    display: flex;
+    overflow:auto;
+    gap: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+.tmp_div{
+    display: flex;
+}
+.sun_div{
+    display: flex;
+    margin-top: 8px;
+}
+.sunset{
+    margin-left: 10px;
+}
+
+.min_temp{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.max_temp{
+    font-size: 17px;
+}
+.weth{
+    font-size: 13px;
+    margin-top: 5px;
+}
+#today{
+    margin-top: 10px;
+}
+#tdy{
+    margin-top: 10px;
+}
